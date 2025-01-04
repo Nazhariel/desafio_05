@@ -1,0 +1,92 @@
+:root {
+    --color-link: #ef672b;
+    --Amarillo: #d39e42;
+    --fondo: #eeece8;
+    --marron: #7a5746;
+    --color-h2: #e8d1ca;
+    --color-h2-elegirnos: #daaa42;
+    --la-nacion: #3387ac;
+    --pagina-12: #ed1c24;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+/* Reset */
+* {
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--marron);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+body{
+    background-color: var(--fondo);
+    margin: 5px;
+    width: auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    margin: 20px auto;
+    color: var(--marron);
+}
+
+h2 {
+    background-color: var(--marron);
+    color: var(--color-h2);
+    font-size: 1.25rem;
+}
+
+/* Links  */
+
+a {
+    color: var(--color-link);
+    font-weight: bold;
+}
+
+a:hover {
+    color: orange;
+}
+
+nav {
+    padding: 0;
+}
+
+.nav-items{
+    list-style-type: "-";
+    padding: 0;
+}
+
+.nav-items li {
+    display: inline;
+    font-size: 1.50rem;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.indice {
+    margin: 15px 5px;
+}
+
+p { 
+    margin: 15px 0;
+    color: var(--marron);
+}
+
+article section:last-of-type > h2 {
+    color: var(--Amarillo);
+}
+
+.la-nacion {
+    color: var(--la-nacion);
+}
+
+.pagina-12 {
+    color: var(--pagina-12);
+}
